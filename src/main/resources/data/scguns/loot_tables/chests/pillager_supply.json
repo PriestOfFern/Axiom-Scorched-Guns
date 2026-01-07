@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scguns:compact_advanced_round",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 8.0, "max": 32.0 },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:standard_copper_round",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 16.0, "max": 64.0 },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:grenade",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 16.0 },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:blueprint_scrap",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:makeshift_rifle",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": { "min": 0.1, "max": 0.3 }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"scguns:gun_rust\",lvl:1s}]}",
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4.0,
+        "max": 10.0
+      }
+    }
+  ],
+  "random_sequence": "scguns:chests/pillager_supply"
+}

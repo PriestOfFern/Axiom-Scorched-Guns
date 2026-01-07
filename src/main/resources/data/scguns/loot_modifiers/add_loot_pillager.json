@@ -1,0 +1,10 @@
+{
+  "type": "scguns:add_loot_table",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/pillager_outpost"
+    }
+  ],
+  "lootTable": "scguns:chests/pillager_supply"
+}

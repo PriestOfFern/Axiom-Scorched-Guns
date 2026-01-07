@@ -36,7 +36,7 @@
                       "add": false,
                       "count": {
                         "type": "minecraft:uniform",
-                        "max": 7.0,
+                        "max": 32.0,
                         "min": 1.0
                       },
                       "function": "minecraft:set_count"
@@ -62,7 +62,7 @@
                       "add": false,
                       "count": {
                         "type": "minecraft:uniform",
-                        "max": 7.0,
+                        "max": 32.0,
                         "min": 1.0
                       },
                       "function": "minecraft:set_count"
@@ -88,7 +88,7 @@
                       "add": false,
                       "count": {
                         "type": "minecraft:uniform",
-                        "max": 7.0,
+                        "max": 32.0,
                         "min": 1.0
                       },
                       "function": "minecraft:set_count"
@@ -114,7 +114,7 @@
                       "add": false,
                       "count": {
                         "type": "minecraft:uniform",
-                        "max": 7.0,
+                        "max": 32.0,
                         "min": 1.0
                       },
                       "function": "minecraft:set_count"
@@ -140,85 +140,7 @@
                       "add": false,
                       "count": {
                         "type": "minecraft:uniform",
-                        "max": 2.0,
-                        "min": 0.0
-                      },
-                      "function": "minecraft:set_count"
-                    },
-                    {
-                      "enchantment": "minecraft:fortune",
-                      "formula": "minecraft:uniform_bonus_count",
-                      "function": "minecraft:apply_bonus",
-                      "parameters": {
-                        "bonusMultiplier": 1
-                      }
-                    },
-                    {
-                      "function": "minecraft:explosion_decay"
-                    }
-                  ],
-                  "name": "scguns:copper_flare"
-                },
-                {
-                  "type": "minecraft:item",
-                  "functions": [
-                    {
-                      "add": false,
-                      "count": {
-                        "type": "minecraft:uniform",
-                        "max": 2.0,
-                        "min": 0.0
-                      },
-                      "function": "minecraft:set_count"
-                    },
-                    {
-                      "enchantment": "minecraft:fortune",
-                      "formula": "minecraft:uniform_bonus_count",
-                      "function": "minecraft:apply_bonus",
-                      "parameters": {
-                        "bonusMultiplier": 1
-                      }
-                    },
-                    {
-                      "function": "minecraft:explosion_decay"
-                    }
-                  ],
-                  "name": "scguns:iron_flare"
-                },
-                {
-                  "type": "minecraft:item",
-                  "functions": [
-                    {
-                      "add": false,
-                      "count": {
-                        "type": "minecraft:uniform",
-                        "max": 2.0,
-                        "min": 0.0
-                      },
-                      "function": "minecraft:set_count"
-                    },
-                    {
-                      "enchantment": "minecraft:fortune",
-                      "formula": "minecraft:uniform_bonus_count",
-                      "function": "minecraft:apply_bonus",
-                      "parameters": {
-                        "bonusMultiplier": 1
-                      }
-                    },
-                    {
-                      "function": "minecraft:explosion_decay"
-                    }
-                  ],
-                  "name": "scguns:wrecker_flare"
-                },
-                {
-                  "type": "minecraft:item",
-                  "functions": [
-                    {
-                      "add": false,
-                      "count": {
-                        "type": "minecraft:uniform",
-                        "max": 7.0,
+                        "max": 32.0,
                         "min": 1.0
                       },
                       "function": "minecraft:set_count"
@@ -244,7 +166,7 @@
                       "add": false,
                       "count": {
                         "type": "minecraft:uniform",
-                        "max": 7.0,
+                        "max": 32.0,
                         "min": 1.0
                       },
                       "function": "minecraft:set_count"
@@ -294,7 +216,7 @@
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 3.0
     },
     {
       "bonus_rolls": 0.0,
@@ -327,7 +249,7 @@
                   "add": false,
                   "count": {
                     "type": "minecraft:uniform",
-                    "max": 7.0,
+                    "max": 32.0,
                     "min": 1.0
                   },
                   "function": "minecraft:set_count"
@@ -353,7 +275,7 @@
                   "add": false,
                   "count": {
                     "type": "minecraft:uniform",
-                    "max": 7.0,
+                    "max": 32.0,
                     "min": 1.0
                   },
                   "function": "minecraft:set_count"
@@ -379,7 +301,7 @@
                   "add": false,
                   "count": {
                     "type": "minecraft:uniform",
-                    "max": 7.0,
+                    "max": 32.0,
                     "min": 1.0
                   },
                   "function": "minecraft:set_count"
@@ -405,7 +327,7 @@
                   "add": false,
                   "count": {
                     "type": "minecraft:uniform",
-                    "max": 7.0,
+                    "max": 32.0,
                     "min": 1.0
                   },
                   "function": "minecraft:set_count"
@@ -431,7 +353,7 @@
                   "add": false,
                   "count": {
                     "type": "minecraft:uniform",
-                    "max": 7.0,
+                    "max": 32.0,
                     "min": 1.0
                   },
                   "function": "minecraft:set_count"
@@ -457,7 +379,7 @@
                   "add": false,
                   "count": {
                     "type": "minecraft:uniform",
-                    "max": 7.0,
+                    "max": 32.0,
                     "min": 1.0
                   },
                   "function": "minecraft:set_count"

@@ -61,7 +61,7 @@
       ]
     },
     "scguns:wither": {
-      "multiplier": 1.25,
+      "multiplier": 3.0,
       "causes_fire": false,
       "fire_duration": 0,
       "target_tags": [

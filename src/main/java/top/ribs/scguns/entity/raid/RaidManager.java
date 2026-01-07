@@ -439,10 +439,8 @@ public class RaidManager {
                 raid.setMountUUID(mount.getUUID());
             }
         }
-
         raid.setBossConfirmed(true);
-        activeRaids.put(raid.getRaidId(), raid);
-        currentActiveRaidId = raid.getRaidId();
+
 
         String announcement = config.spawnConditions().announcementMessage();
         Component announcementComponent;
@@ -457,9 +455,6 @@ public class RaidManager {
         raid.announceToNearbyPlayers(announcementComponent, config.spawnConditions().searchRadius());
         spawnHenchmen(raid, level);
         raid.resetSpawnTimer();
-
-        RaidSaveData saveData = RaidSaveData.get(level);
-        saveData.saveActiveRaid(raid);
 
     }
 

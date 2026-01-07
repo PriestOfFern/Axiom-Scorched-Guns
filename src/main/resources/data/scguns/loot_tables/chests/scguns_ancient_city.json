@@ -66,20 +66,6 @@
           "name": "scguns:sculk_cell"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "scguns:sculk_flare"
-        },
-        {
           "type": "minecraft:empty",
           "weight": 2
         }

@@ -1,20 +1,8 @@
 {
   "structures": [
     {
-      "structure": "scguns:osgood_lab",
-      "weight": 4
-    },
-    {
       "structure": "scguns:osgood_lab_outpost",
       "weight": 5
-    },
-    {
-      "structure": "scguns:asgharian_tower",
-      "weight": 6
-    },
-    {
-      "structure": "scguns:asgharian_citadel",
-      "weight": 6
     }
   ],
   "placement": {

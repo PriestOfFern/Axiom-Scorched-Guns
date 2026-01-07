@@ -1,6 +1,7 @@
 package top.ribs.scguns.item.animated;
 
 import net.minecraft.client.model.HumanoidModel;
+import net.minecraft.client.model.Model;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ArmorItem;
@@ -14,6 +15,7 @@ import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInst
 import software.bernie.geckolib.core.animation.*;
 import software.bernie.geckolib.core.object.PlayState;
 import top.ribs.scguns.client.render.armor.RidgetopArmorRenderer;
+import top.ribs.scguns.client.render.armor.ScrapArmorRenderer;
 
 import java.util.function.Consumer;
 
@@ -28,8 +30,8 @@ public class RidgetopArmorItem extends ArmorItem implements GeoItem {
             private RidgetopArmorRenderer renderer;
 
             @Override
-            public @NotNull HumanoidModel<?> getHumanoidArmorModel(LivingEntity livingEntity, ItemStack itemStack,
-                                                                   EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
+            public @NotNull Model getGenericArmorModel(LivingEntity livingEntity, ItemStack itemStack,
+                                                       EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
                 if (this.renderer == null)
                     this.renderer = new RidgetopArmorRenderer();
 

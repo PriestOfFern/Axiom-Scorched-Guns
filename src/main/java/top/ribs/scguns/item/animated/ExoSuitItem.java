@@ -2,6 +2,7 @@ package top.ribs.scguns.item.animated;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.model.HumanoidModel;
+import net.minecraft.client.model.Model;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.ListTag;
 import net.minecraft.network.chat.Component;
@@ -57,8 +58,8 @@ public class ExoSuitItem extends ArmorItem implements GeoItem {
             private ExoSuitRenderer renderer;
 
             @Override
-            public @NotNull HumanoidModel<?> getHumanoidArmorModel(LivingEntity livingEntity, ItemStack itemStack,
-                                                                   EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
+            public @NotNull Model getGenericArmorModel(LivingEntity livingEntity, ItemStack itemStack,
+                                                       EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
                 if (this.renderer == null)
                     this.renderer = new ExoSuitRenderer();
 

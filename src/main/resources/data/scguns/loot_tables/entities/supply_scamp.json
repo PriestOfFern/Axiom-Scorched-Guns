@@ -142,20 +142,6 @@
               }
             }
           ],
-          "name": "scguns:copper_flare"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0.0,
-                "max": 1.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
           "name": "scguns:iron_flare"
         },
         {
