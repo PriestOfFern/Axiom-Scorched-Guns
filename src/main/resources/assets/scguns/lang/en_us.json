@@ -42,9 +42,7 @@
   "raid.boss.scguns.antique": "Colonel Jil",
   "raid.announcement.scguns.antique": "The Redcoats are coming!",
 
-  "raid.scguns.frontier": "Frontier Raid",
-  "raid.boss.scguns.frontier": "Sheriff Tibias",
-  "raid.announcement.scguns.frontier": "Its High Noon! The Frontier Marauders are raiding!",
+  "raid.announcement.scguns.generic": "You hear footsteps.",
 
   "raid.scguns.copper": "Copper Raid",
   "raid.boss.scguns.copper": "Rust Ridge Captain",

@@ -3,147 +3,119 @@
   "raid_level": 1,
 
   "boss": {
-    "entity_type": "minecraft:skeleton",
-    "custom_name": "translation:raid.boss.scguns.frontier",
-    "fixed_health": 100.0,
+    "entity_type": "minecraft:pillager",
+    "fixed_health": 20.0,
     "weapon": {
       "item": "scguns:saketini_ironport",
       "drop_chance": 0.25
     },
     "armor": [
       {
-        "item": "scguns:ridgetop",
-        "slot": "head",
-        "drop_chance": 0.2
-      },
-      {
-        "item": "minecraft:leather_chestplate",
+        "item": "scguns:adrien_chestplate",
         "slot": "chest",
         "drop_chance": 0.2
       },
       {
-        "item": "minecraft:leather_leggings",
+        "item": "scguns:adrien_leggings",
         "slot": "legs",
         "drop_chance": 0.15
       },
       {
-        "item": "minecraft:leather_boots",
+        "item": "scguns:adrien_boots",
         "slot": "feet",
         "drop_chance": 0.15
       }
     ],
-    "effects": [
-      {
-        "effect": "minecraft:speed",
-        "amplifier": 0,
-        "duration": -1,
-        "ambient": false,
-        "visible": false
-      }
-    ],
     "ai_difficulty": 4,
     "ai_type": "TACTICAL",
-    "special_loot_table": "scguns:raids/frontier_boss",
     "mount": {
-      "entity_type": "minecraft:skeleton_horse",
-      "health_multiplier": 1.5,
-      "armor": [
-        {
-          "item": "minecraft:iron_horse_armor",
-          "slot": "chest",
-          "drop_chance": 0.3
-        }
-      ],
-      "effects": [
-        {
-          "effect": "minecraft:speed",
-          "amplifier": 1,
-          "duration": -1,
-          "ambient": true,
-          "visible": false
-        }
-      ],
-      "drops_loot": false
+      "entity_type": "minecraft:horse",
+      "health_multiplier": 1
     }
   },
 
   "henchmen": {
     "types": [
       {
-        "entity_type": "minecraft:zombie",
+        "entity_type": "minecraft:pillager",
         "weight": 4.0,
-        "health_multiplier": 1.3,
+        "fixed_health": 24.0,
         "weapons": [
           "scguns:pax",
-          "scguns:callwell",
-            "minecraft:stone_axe",
-            "minecraft:iron_sword"
+          "scguns:callwell"
         ],
         "armor": [
           {
-            "item": "scguns:ridgetop",
-            "slot": "head",
-            "chance": 1.0
+            "item": "scguns:adrien_chestplate",
+            "slot": "chest",
+            "chance": 0.3
           },
           {
-            "item": "minecraft:leather_chestplate",
-            "slot": "chest",
-            "chance": 0.4
-          }
-        ],
-        "effects": [
+            "item": "scguns:adrien_leggings",
+            "slot": "legs",
+            "chance": 0.3
+          },
           {
-            "effect": "minecraft:speed",
-            "amplifier": 0,
-            "duration": -1,
-            "ambient": false,
-            "visible": false
-          }
-        ],
-        "ai_difficulty": 2,
-        "ai_type": "RECKLESS"
-      },
-      {
-        "entity_type": "minecraft:skeleton",
-        "weight": 2.0,
-        "fixed_health": 20.0,
-        "weapons": [
-          "scguns:saketini",
-          "scguns:winnie_millend",
-          "minecraft:stone_sword",
-            "minecraft:stone_axe"
-
-        ],
-        "armor": [
-          {
-            "item": "scguns:ridgetop",
-            "slot": "head",
-            "chance": 1.0
+            "item": "scguns:adrien_boots",
+            "slot": "feet",
+            "chance": 0.3
           }
         ],
         "ai_difficulty": 2,
         "ai_type": "DEFAULT"
       },
       {
-        "entity_type": "minecraft:husk",
-        "weight": 1.5,
-        "fixed_health": 26.0,
+        "entity_type": "minecraft:pillager",
+        "weight": 2.0,
+        "fixed_health": 24.0,
         "weapons": [
-          "scguns:winnie",
-          "scguns:callwell_terminal",
-          "minecraft:iron_sword",
-          "scguns:iron_bayonet"
+          "scguns:saketini",
+          "scguns:winnie_millend"
+
         ],
         "armor": [
           {
-            "item": "scguns:ridgetop",
-            "slot": "head",
-            "chance": 0.5
+            "item": "scguns:adrien_chestplate",
+            "slot": "chest",
+            "chance": 0.3
           },
           {
-            "item": "minecraft:leather_chestplate",
+            "item": "scguns:adrien_leggings",
+            "slot": "legs",
+            "chance": 0.3
+          },
+          {
+            "item": "scguns:adrien_boots",
+            "slot": "feet",
+            "chance": 0.3
+          }
+        ],
+        "ai_difficulty": 2,
+        "ai_type": "DEFAULT"
+      },
+      {
+        "entity_type": "minecraft:vindicator",
+        "weight": 4,
+        "fixed_health": 25.0,
+        "weapons": [
+          "minecraft:iron_sword",
+          "minecraft:iron_axe"
+        ],
+        "armor": [
+          {
+            "item": "scguns:adrien_chestplate",
             "slot": "chest",
-            "chance": 0.6
+            "chance": 0.3
+          },
+          {
+            "item": "scguns:adrien_leggings",
+            "slot": "legs",
+            "chance": 0.3
+          },
+          {
+            "item": "scguns:adrien_boots",
+            "slot": "feet",
+            "chance": 0.3
           }
         ],
         "effects": [
@@ -155,8 +127,8 @@
             "visible": false
           }
         ],
-        "ai_difficulty": 3,
-        "ai_type": "TACTICAL"
+        "ai_difficulty": 1,
+        "ai_type": "RECKLESS"
       }
     ],
     "spawn_interval_ticks": 700,
@@ -166,11 +138,11 @@
   },
 
   "spawn_conditions": {
-    "min_players_nearby": 1,
+    "min_players_nearby": 3,
     "search_radius": 64,
     "valid_dimensions": [
       "minecraft:overworld"
     ],
-    "announcement_message": "translation:raid.announcement.scguns.frontier"
+    "announcement_message": "translation:raid.announcement.scguns.generic"
   }
 }

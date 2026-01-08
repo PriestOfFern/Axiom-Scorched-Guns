@@ -3,10 +3,10 @@
   "category": "equipment",
   "key": {
     "H": {
-      "item": "scguns:blueprint_scrap"
+      "item": "minecraft:paper"
     },
     "Q": {
-      "item": "scguns:shulker_core"
+      "item": "minecraft:end_stone"
     },
     "Z": {
       "item": "minecraft:paper"

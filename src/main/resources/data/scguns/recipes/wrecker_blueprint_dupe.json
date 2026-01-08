@@ -3,10 +3,10 @@
   "category": "equipment",
   "key": {
     "H": {
-      "item": "scguns:blueprint_scrap"
+      "item": "minecraft:paper"
     },
     "Q": {
-      "item": "scguns:snapped_cogwheel"
+      "item": "minecraft:treated_iron_ingot"
     },
     "Z": {
       "item": "minecraft:paper"

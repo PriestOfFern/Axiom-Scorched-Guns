@@ -1,0 +1,224 @@
+{
+  "raid_id": "horde",
+  "raid_level": 1,
+
+  "boss": {
+    "entity_type": "minecraft:zombie",
+    "fixed_health": 20.0,
+    "ai_difficulty": 4,
+    "ai_type": "RECKLESS"
+  },
+
+  "henchmen": {
+    "types": [
+      {
+        "entity_type": "minecraft:zombie",
+        "weight": 4.0,
+        "health_multiplier": 1.0,
+        "armor": [
+          {
+            "item": "scguns:adrien_chestplate",
+            "slot": "chest",
+            "chance": 0.1
+          },
+          {
+            "item": "scguns:adrien_leggings",
+            "slot": "legs",
+            "chance": 0.1
+          },
+          {
+            "item": "scguns:adrien_boots",
+            "slot": "feet",
+            "chance": 0.1
+          },
+          {
+            "item": "minecraft:leather_chestplate",
+            "slot": "chest",
+            "chance": 0.1
+          },
+          {
+            "item": "minecraft:leather_leggings",
+            "slot": "legs",
+            "chance": 0.1
+          },
+          {
+            "item": "minecraft:leather_boots",
+            "slot": "feet",
+            "chance": 0.1
+          }
+        ],
+        "ai_difficulty": 2,
+        "ai_type": "RECKLESS"
+      },
+      {
+        "entity_type": "rottencreatures:undead_miner",
+        "weight": 4.0,
+        "health_multiplier": 1.0,
+        "armor": [
+          {
+            "item": "scguns:adrien_chestplate",
+            "slot": "chest",
+            "chance": 0.1
+          },
+          {
+            "item": "scguns:adrien_leggings",
+            "slot": "legs",
+            "chance": 0.1
+          },
+          {
+            "item": "scguns:adrien_boots",
+            "slot": "feet",
+            "chance": 0.1
+          },
+          {
+            "item": "minecraft:leather_chestplate",
+            "slot": "chest",
+            "chance": 0.1
+          },
+          {
+            "item": "minecraft:leather_leggings",
+            "slot": "legs",
+            "chance": 0.1
+          },
+          {
+            "item": "minecraft:leather_boots",
+            "slot": "feet",
+            "chance": 0.1
+          }
+        ],
+        "ai_difficulty": 2,
+        "ai_type": "RECKLESS"
+      },
+      {
+        "entity_type": "rottencreatures:zombie_lackey",
+        "weight": 4.0,
+        "health_multiplier": 1.0,
+        "armor": [
+          {
+            "item": "scguns:adrien_chestplate",
+            "slot": "chest",
+            "chance": 0.1
+          },
+          {
+            "item": "scguns:adrien_leggings",
+            "slot": "legs",
+            "chance": 0.1
+          },
+          {
+            "item": "scguns:adrien_boots",
+            "slot": "feet",
+            "chance": 0.1
+          },
+          {
+            "item": "minecraft:leather_chestplate",
+            "slot": "chest",
+            "chance": 0.1
+          },
+          {
+            "item": "minecraft:leather_leggings",
+            "slot": "legs",
+            "chance": 0.1
+          },
+          {
+            "item": "minecraft:leather_boots",
+            "slot": "feet",
+            "chance": 0.1
+          }
+        ],
+        "ai_difficulty": 2,
+        "ai_type": "RECKLESS"
+      },
+      {
+        "entity_type": "rottencreatures:frostbitten",
+        "weight": 4.0,
+        "health_multiplier": 1.0,
+        "armor": [
+          {
+            "item": "scguns:adrien_chestplate",
+            "slot": "chest",
+            "chance": 0.1
+          },
+          {
+            "item": "scguns:adrien_leggings",
+            "slot": "legs",
+            "chance": 0.1
+          },
+          {
+            "item": "scguns:adrien_boots",
+            "slot": "feet",
+            "chance": 0.1
+          },
+          {
+            "item": "minecraft:leather_chestplate",
+            "slot": "chest",
+            "chance": 0.1
+          },
+          {
+            "item": "minecraft:leather_leggings",
+            "slot": "legs",
+            "chance": 0.1
+          },
+          {
+            "item": "minecraft:leather_boots",
+            "slot": "feet",
+            "chance": 0.1
+          }
+        ],
+        "ai_difficulty": 2,
+        "ai_type": "RECKLESS"
+      },
+      {
+        "entity_type": "rottencreatures:swampy",
+        "weight": 4.0,
+        "health_multiplier": 1.0,
+        "armor": [
+          {
+            "item": "scguns:adrien_chestplate",
+            "slot": "chest",
+            "chance": 0.1
+          },
+          {
+            "item": "scguns:adrien_leggings",
+            "slot": "legs",
+            "chance": 0.1
+          },
+          {
+            "item": "scguns:adrien_boots",
+            "slot": "feet",
+            "chance": 0.1
+          },
+          {
+            "item": "minecraft:leather_chestplate",
+            "slot": "chest",
+            "chance": 0.1
+          },
+          {
+            "item": "minecraft:leather_leggings",
+            "slot": "legs",
+            "chance": 0.1
+          },
+          {
+            "item": "minecraft:leather_boots",
+            "slot": "feet",
+            "chance": 0.1
+          }
+        ],
+        "ai_difficulty": 2,
+        "ai_type": "RECKLESS"
+      }
+    ],
+    "spawn_interval_ticks": 700,
+    "max_alive": 30,
+    "spawn_radius": 15,
+    "spawn_attempts_per_wave": 30
+  },
+
+  "spawn_conditions": {
+    "min_players_nearby": 3,
+    "search_radius": 64,
+    "valid_dimensions": [
+      "minecraft:overworld"
+    ],
+    "announcement_message": "translation:raid.announcement.scguns.generic"
+  }
+}

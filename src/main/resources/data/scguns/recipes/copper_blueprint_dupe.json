@@ -3,10 +3,10 @@
   "category": "equipment",
   "key": {
     "H": {
-      "item": "scguns:blueprint_scrap"
+      "item": "minecraft:paper"
     },
     "Q": {
-      "item": "scguns:rusty_medal"
+      "item": "minecraft:copper_ingot"
     },
     "Z": {
       "item": "minecraft:paper"
